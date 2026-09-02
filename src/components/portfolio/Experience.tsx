@@ -10,7 +10,7 @@ type Job = {
 
 const JOBS: Job[] = [
   {
-    role: "Graphic Designer",
+    role: "UI/UX & Graphic Designer",
     company: "Chimertech Private Limited, Chennai",
     period: "Nov 2025 - Present",
     points: [
