@@ -56,7 +56,7 @@ function Index() {
             { text: "AIblf – Redefining Creativity with " },
             { text: "Next-Generation AI", accent: true },
           ]}
-          description="A modern AI-powered platform designed to generate stunning images and creative content through intuitive prompts. Built with a focus on seamless user experience and visually engaging interactions."
+          description="A modern AI-powered platform designed to generate stunning images and creative content through intuitive prompts. Built with a focus on seamless user experience and visually engaging storytelling."
           tags={["Figma", "AI Website Hero Section", "Photoshop", "Behance"]}
           accent="#D808F2"
         >
@@ -68,16 +68,16 @@ function Index() {
         <ProjectSection
           reverse
           title={[
-            { text: "CarNova – A Modern " },
-            { text: "Car Rental", accent: true },
-            { text: " Experience" },
+            { text: "A " },
+            { text: "Deliciously Crafted", accent: true },
+            { text: " Digital Experience" },
           ]}
-          description="Designed a sleek and responsive landing page for a car rental platform, delivering a seamless booking experience through intuitive navigation, bold visuals, and a user-focused interface."
-          tags={["Figma", "Car Rental Website", "Photoshop", "Behance", "Landing Page"]}
-          accent="#FFAA00"
+          description="Created a visually rich restaurant website that highlights signature dishes through an immersive interface, responsive design, and a seamless user experience."
+          tags={["Figma", "Food site", "Photoshop", "Static Website"]}
+          accent="#E72503"
         >
-          <BrowserWindow innerClassName="bg-[#2a1c05]">
-            <Shot src="/images/carnova.png" alt="CarNova car rental landing page design" />
+          <BrowserWindow innerClassName="bg-[#161616]">
+            <Shot src="/images/food.png" alt="Sikku Bhai Biryani restaurant website design" />
           </BrowserWindow>
         </ProjectSection>
 
@@ -92,7 +92,7 @@ function Index() {
           accent="#02A0E1"
         >
           <BrowserWindow innerClassName="bg-[#062637]">
-            <Shot src="Invest1.jpg.jpeg" alt="Prime Investments website design" />
+            <Shot src="/images/investment.png" alt="Prime Investments website design" />
           </BrowserWindow>
         </ProjectSection>
 
@@ -114,22 +114,9 @@ function Index() {
 
         <ProjectSection
           title={[
-            { text: "A " },
-            { text: "Deliciously Crafted", accent: true },
-            { text: " Digital Experience" },
+            { text: "Smart Learning", accent: true },
+            { text: " Management Dashboard" },
           ]}
-          description="Created a visually rich restaurant website that highlights signature dishes through an immersive interface, responsive design, and a seamless user experience."
-          tags={["Figma", "Food site", "Photoshop", "Static Website"]}
-          accent="#E72503"
-        >
-          <BrowserWindow innerClassName="bg-[#161616]">
-            <Shot src="/images/food.png" alt="Sikku Bhai Biryani restaurant website design" />
-          </BrowserWindow>
-        </ProjectSection>
-
-        <ProjectSection
-          reverse
-          title={[{ text: "Smart Learning", accent: true }, { text: " Management Dashboard" }]}
           description="Created a responsive admin dashboard that simplifies educational workflows with organized data visualization, user-friendly navigation, and real-time performance insights."
           tags={["Figma", "Admin", "Photoshop", "Ecommerce", "Login Website"]}
           accent="#BB4EFF"
@@ -140,11 +127,12 @@ function Index() {
         </ProjectSection>
 
         <ProjectSection
+          reverse
           title={[
             { text: "Bitco.in", accent: true },
             { text: " – Shaping the Future of Digital Finance" },
           ]}
-          description="Designed a modern cryptocurrency landing page that communicates blockchain innovation through bold visuals, intuitive navigation, and a seamless user experience for digital investors."
+          description="Designed a modern cryptocurrency landing page that communicates blockchain innovation through bold visuals, intuitive navigation, and a seamless user experience for digital finance audiences."
           tags={["Figma", "Bitcoin", "Photoshop", "Behance", "Landing Page"]}
           accent="#AFFC41"
         >
@@ -154,7 +142,6 @@ function Index() {
         </ProjectSection>
 
         <ProjectSection
-          reverse
           title={[
             { text: "Crafting " },
             { text: "Mobile Applications", accent: true },
