@@ -68,16 +68,25 @@ function Index() {
         <ProjectSection
           reverse
           title={[
-            { text: "A " },
-            { text: "Deliciously Crafted", accent: true },
-            { text: " Digital Experience" },
+            { text: "CarNova – " },
+            { text: "Car Rental Admin", accent: true },
+            { text: " Dashboard" },
           ]}
-          description="Created a visually rich restaurant website that highlights signature dishes through an immersive interface, responsive design, and a seamless user experience."
-          tags={["Figma", "Food site", "Photoshop", "Static Website"]}
-          accent="#E72503"
+          description="CarNova is a modern admin dashboard designed to manage car rentals, bookings, drivers, availability, earnings, and expenses. It provides clear statistics and real-time car status to help administrators efficiently monitor daily operations."
+          tags={[
+            "UI/UX Design",
+            "Dashboard Design",
+            "Car Rental",
+            "Admin Panel",
+            "Data Visualization",
+            "Web Design",
+            "Figma",
+            "User Experience",
+          ]}
+          accent="#FF5E14"
         >
-          <BrowserWindow innerClassName="bg-[#161616]">
-            <Shot src="/images/food.png" alt="Sikku Bhai Biryani restaurant website design" />
+          <BrowserWindow innerClassName="bg-[#181512]">
+            <Shot src="/images/carnova-dashboard.png" alt="CarNova car rental admin dashboard design" />
           </BrowserWindow>
         </ProjectSection>
 
@@ -114,15 +123,25 @@ function Index() {
 
         <ProjectSection
           title={[
-            { text: "Smart Learning", accent: true },
-            { text: " Management Dashboard" },
+            { text: "CourseWin – " },
+            { text: "Online Learning", accent: true },
+            { text: " Dashboard" },
           ]}
-          description="Created a responsive admin dashboard that simplifies educational workflows with organized data visualization, user-friendly navigation, and real-time performance insights."
-          tags={["Figma", "Admin", "Photoshop", "Ecommerce", "Login Website"]}
-          accent="#BB4EFF"
+          description="CourseWin is an online learning dashboard designed to help users manage courses, lessons, tasks, mentors, and learning progress. The interface provides a clean and organized experience for discovering courses, continuing lessons, and tracking learning activities."
+          tags={[
+            "UI/UX Design",
+            "EdTech",
+            "Learning Dashboard",
+            "Web Design",
+            "Course Management",
+            "User Experience",
+            "Figma",
+            "Dashboard Design",
+          ]}
+          accent="#1D61FF"
         >
-          <BrowserWindow innerClassName="bg-[#1d0b30]">
-            <Shot src="/images/dashboard.png" alt="Smart learning management admin dashboard design" />
+          <BrowserWindow innerClassName="bg-[#0b1329]">
+            <Shot src="/images/coursewin.png" alt="CourseWin online learning dashboard design" />
           </BrowserWindow>
         </ProjectSection>
 
