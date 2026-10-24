@@ -68,6 +68,21 @@ function Index() {
         <ProjectSection
           reverse
           title={[
+            { text: "CarNova – A Modern " },
+            { text: "Car Rental", accent: true },
+            { text: " Experience" },
+          ]}
+          description="Designed a sleek and responsive landing page for a car rental platform, delivering a seamless booking experience through intuitive navigation, bold visuals, and a user-focused interface."
+          tags={["Car Rental Website", "Figma", "Photoshop", "Behance"]}
+          accent="#FFAA00"
+        >
+          <BrowserWindow innerClassName="bg-[#2a1c05]">
+            <Shot src="/images/carnova.png" alt="CarNova car rental landing page design" />
+          </BrowserWindow>
+        </ProjectSection>
+
+        <ProjectSection
+          title={[
             { text: "CarNova – " },
             { text: "Car Rental Admin", accent: true },
             { text: " Dashboard" },
@@ -86,11 +101,15 @@ function Index() {
           accent="#FF5E14"
         >
           <BrowserWindow innerClassName="bg-[#181512]">
-            <Shot src="/images/carnova-dashboard.png" alt="CarNova car rental admin dashboard design" />
+            <Shot
+              src="/images/carnova-dashboard.png"
+              alt="CarNova car rental admin dashboard design"
+            />
           </BrowserWindow>
         </ProjectSection>
 
         <ProjectSection
+          reverse
           title={[
             { text: "Investment – A " },
             { text: "Modern Financial", accent: true },
@@ -106,7 +125,6 @@ function Index() {
         </ProjectSection>
 
         <ProjectSection
-          reverse
           title={[
             { text: "Sri Fashion – Redefining " },
             { text: "Digital Fashion", accent: true },
@@ -122,6 +140,7 @@ function Index() {
         </ProjectSection>
 
         <ProjectSection
+          reverse
           title={[
             { text: "CourseWin – " },
             { text: "Online Learning", accent: true },
@@ -146,7 +165,6 @@ function Index() {
         </ProjectSection>
 
         <ProjectSection
-          reverse
           title={[
             { text: "Bitco.in", accent: true },
             { text: " – Shaping the Future of Digital Finance" },
@@ -161,6 +179,7 @@ function Index() {
         </ProjectSection>
 
         <ProjectSection
+          reverse
           title={[
             { text: "Crafting " },
             { text: "Mobile Applications", accent: true },
